@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Hotel Booking",
+        "category": "project1",
+        "image": "https://i.ibb.co/hKfXbSV/hotelHub.png"
+    },
+    {
+        "name": "automotive",
+        "category": "project1",
+        "image": "https://i.ibb.co/zRThQhs/automotive.png"
+    },
+    {
+        "name": "world",
+        "category": "project2",
+        "image": "https://i.ibb.co/zRThQhs/automotive.png"
+    },
+    {
+        "name": "world",
+        "category": "project3",
+        "image": "https://i.ibb.co/hKfXbSV/hotelHub.png"
+    }
+]
