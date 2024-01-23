@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Shared/Navbar/Navbar";
+import { Toaster } from "react-hot-toast";
+import Footer from "../Shared/Footer/Footer";
 // import Navbar1 from "../Navbar/Navbar1";
 
 
@@ -10,6 +12,8 @@ const MainLayout = () => {
             <Navbar />
             {/* <Navbar1 /> */}
             <Outlet />
+            <Footer />
+            <Toaster />
 
         </div>
     );

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BiMenu, BiMenuAltRight } from 'react-icons/bi';
 import { useState } from "react";
 
@@ -43,12 +43,29 @@ const Navbar = () => {
                                 >Home</a>
                             </li>
                             <li>
-                                <a href="/#Technical"
-                                >Technical</a>
+                                <a href="/#about-me"
+                                > About Me</a>
                             </li>
                             <li>
-                                <a href="/#about-me">About Me</a>
+                                <a href="/#skills"
+                                >My Skills</a>
                             </li>
+                            <li>
+                                <a href="/#projects"
+                                >My Projects</a>
+                            </li>
+
+                            <li>
+                                <NavLink
+                                    to="/dashboard/user"
+                                    className={({ isActive }) =>
+                                        isActive ? 'text-lg font-semibold' : ''
+                                    }
+                                >
+                                    Dashboard
+                                </NavLink>
+                            </li>
+
                         </ul>
 
 

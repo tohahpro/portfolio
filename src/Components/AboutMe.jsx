@@ -11,7 +11,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className='bg-[#101A33]'>
+        <div id='about-me' className='bg-[#101A33]'>
             <h2 className='text-4xl text-white font-bold pt-24 text-center'>About Me</h2>
             <div className='flex justify-between py-20'>
                 <div className='flex-1 flex items-center justify-center'>
@@ -35,5 +35,6 @@ const AboutMe = () => {
         </div>
     );
 };
+
 
 export default AboutMe;
