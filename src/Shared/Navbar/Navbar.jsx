@@ -38,6 +38,7 @@ const Navbar = () => {
                         absolute lg:flex flex-wrap mt-60 lg:m-0 w-full lg:w-fit p-6 lg:p-0 bg-white/90 border lg:border-none  duration-4000 ${open ? ' ' : 'hidden'} lg:static text-[#2b2868] lg:bg-transparent text-center  space-y-2 z-20`}
                     >
                         <ul className="lg:flex lg:gap-12 items-center  z-70 text-lg font-semibold">
+
                             <li>
                                 <a href="/#"
                                 >Home</a>

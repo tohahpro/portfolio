@@ -46,7 +46,7 @@ const Projects = () => {
                                     <div className="absolute inset-0 w-full h-full rounded-xl bg-[#132249] px-12 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden] flex items-center">
                                         <div className='mx-auto'>
                                             <div className="mb-5">
-                                                <h1>Hello</h1>
+
                                                 <ul className="">
                                                     <li>
 
